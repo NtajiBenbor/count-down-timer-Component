@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Count down</title>
+    <script src="https://kit.fontawesome.com/cbbf517174.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="section-center">
+        <!-- flex wrapper -->
+        <div class="flex-wrapper">
+            <!-- gift item img -->
+            <article>
+                <img src="https://images.pexels.com/photos/821651/pexels-photo-821651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="camera-img">
+            </article>
+
+            <!-- gift info -->
+            <article class="gift-info">
+                <h1 class="banner-text">Old Camera Give Away!</h1>
+                <!-- giveaway day -->
+                <h2 class="giveaway-details">Give away ends on sunday, 4 August 2024 11:30am</h2>
+                <div class="gift-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae, unde reiciendis dolorum natus modi nam, officiis distinctio suscipit dolor laboriosam temporibus perspiciatis explicabo rerum aut eum inventore minus ea.</p>
+                </div>
+                <!-- countdown Timer -->
+                <div class="countdown-wrapper">
+                    <!-- day -->
+                    <div class="digit">
+                        <p><span class="days"> 0</span> <br>
+                        days</p>
+                    </div>
+                    <!-- hour -->
+                    <div class="digit">
+                       <p><span class="hours"> 0 </span><br>
+                        hours</p>
+                    </div>
+                    <!-- mins -->
+                    <div class="digit ">
+                        <p><span class="mins"> 0 </span><br>
+                        mins</p>
+                    </div>
+                    <!-- second -->
+                    <div class="digit ">
+                        <p><span class="seconds"> 0 </span><br>
+                        secs</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
     
 
-    <script src="app.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
